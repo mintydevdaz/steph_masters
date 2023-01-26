@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "steph-masters"
+version = "0.1.0"
+description = ""
+authors = ["mintydevdaz <mintydevdaz@proton.me>"]
+readme = "README.md"
+packages = [{include = "steph_masters"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+netcdf4 = "^1.6.2"
+pandas = "^1.5.3"
+xarray = "^2023.1.0"
+openpyxl = "^3.0.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
